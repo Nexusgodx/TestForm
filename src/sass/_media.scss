@@ -1,0 +1,92 @@
+@media(max-width: 991px) {
+    .main {
+        min-height: 850px;
+        align-items: flex-start;
+        &__wrapper {
+            position: relative;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        &__img {
+            display: none;
+            &-mini {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                img {
+                    margin-top: 32px;
+                }
+                .reduslim {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                }
+                .eco {
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+                    text-transform: uppercase;
+                }
+                span {
+                    color: #000;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 130%;
+                }
+            }
+
+        }
+        &-form {
+            padding: 40px 20px 68px 20px;
+            position: relative;
+            width: 320px;
+            &__title {
+                background-color: #fff;
+                min-height: 50px;
+                margin-top: 37px;
+            }
+            &__items {
+                padding-top: 28px;
+            }
+            &__btn {
+                width: 280px;
+            }
+            &__name {
+                input {
+                    width: 280px;
+                }
+            }
+            &__phone {
+                width: 280px;
+                input {
+                    width: 174px;
+                }
+            }
+            &__language {
+                width: 96.18px;
+            }
+            &__trusted {
+                position: absolute;
+                bottom: 0;
+                height: 40px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #F8F8F8;
+                span {
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 130%;
+                    color: #000;
+                }
+                img {
+                    margin: 0px 20px;
+                }
+            }
+        }
+    }
+    
+} 
